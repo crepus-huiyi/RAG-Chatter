@@ -24,21 +24,7 @@ Clothing-RAG-KnowledgeBase-System
 | 对话大模型 | 通义千问Qwen ChatModel |
 | 前端交互 | Streamlit |
 
-📁 项目结构
-Clothing-RAG-KnowledgeBase-System/
-├── config/ # 项目配置文件（API Key、向量库路径等）
-├── data/ # 原始知识库文本文件
-├── vector_db/ # Chroma 本地向量库持久化存储
-├── chat_history/ # 对话历史 JSON 文件持久化目录
-├── services/
-│ ├── vector_store_service.py # 向量库操作封装类
-│ ├── rag_service.py # RAG 问答链核心逻辑
-│ └── chat_history_service.py # 对话历史管理模块
-├── utils/ # 工具类（文本分块、MD5 去重、日志等）
-├── app.py # Streamlit 前端主程序入口
-├── requirements.txt # 项目依赖清单
-└── README.md
-plaintext
+
 
 🚀 快速开始
 1. 环境准备
