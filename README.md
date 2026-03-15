@@ -121,4 +121,3 @@ streamlit run app_qa.py
 ---
 
 
-本项目仅用于学习与交流，非商业用途。
